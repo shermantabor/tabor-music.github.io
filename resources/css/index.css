@@ -1,0 +1,28 @@
+.banner {
+    background-color: rgb(27, 22, 19);
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    /*background-image: url('resources/images/background-image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+    }
+
+#small-cover {
+    height: 300px;
+    width: 450px;
+    }
+
+.social {
+    display: inline-block;
+    height: 50px;
+}
+
+/*.social-icon {
+    height: 100px;
+    width: 100px;
+    }  */
+
+
