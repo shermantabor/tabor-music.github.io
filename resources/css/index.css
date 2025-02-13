@@ -27,8 +27,8 @@
     list-style: none;
     display: flex;
     padding-top: 18px;
-    padding-right: 200px;
-    gap: 250px;
+    gap: 20px;
+    padding-right: 20px;
     }
     
 .nav ul li {
@@ -51,7 +51,7 @@ body {
     background-color: rgb(27, 22, 19);
     color: white;
     text-align: center;
-    padding: 100px 100px;
+    padding: 100px 10px;
     background-image: url("../images/IMG_0687.jpeg");
     background-size: cover;
     background-position: center;
