@@ -1,13 +1,57 @@
-.banner {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: exo, sans-serif;
+    font-weight: 100;
+}
+
+body {
     background-color: rgb(27, 22, 19);
     color: white;
     text-align: center;
-    padding: 100px 0;
-    background-image: url('resources/images/background-image.png');
+    padding: 100px 100px;
+    background-image: url("../images/IMG_0687.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    }
+
+h1 {
+    font-size: 50px;
+    margin-top: 150px;
+    text-align: left;
+    padding-left: 50px;
+    font-style: italic;
+    }
+
+h2 {
+    font-size: 50px;
+    color: antiquewhite;
+    margin-top: 0px;
+    margin-bottom: 120px;
+    text-align: left;
+    padding-left: 50px;
+    font-style: italic;
+    }
+
+h3 {
+    font-size: 20px;
+    color:beige;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 50px;
+    font-style: italic;
+    }
+
+form {
+    display: flex;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    padding-left: 50px;
     }
 
 #small-cover {
@@ -17,7 +61,22 @@
 
 .social {
     display: inline-block;
-    height: 50px;
+}
+
+/* Footer Social Media Icons */
+
+.social {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.social a {
+    display: inline-flex;
+    width: 90px;
+    height: 90px;
+    padding: 10px 10px;
 }
 
 /*.social-icon {
